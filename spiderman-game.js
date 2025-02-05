@@ -19,39 +19,39 @@ window.requestAnimFrame = requestAnimationFrame;
 
 var link = document.createElement("link");
 link.setAttribute("rel", "stylesheet");
-link.setAttribute("href", RESOURCES_FOLDER_PATH + "css/spiderman-game.css");
+link.setAttribute("href", RESOURCES_FOLDER_PATH + "spiderman-game.css");
 document.head.appendChild(link);
 
 
 var RESOURCES = {
-	"JUMP"               : "images/jump.png",
-	"RUNNING_CHANGE_STEP": "images/running-change-step.png",
-	"RUNNING_LEFT_STEP"  : "images/running-left-step.png",
-	"RUNNING_RIGHT_STEP" : "images/running-right-step.png",
-	"SHOOT_CHANGE_STEP"  : "images/shoot-change-step.png",
-	"SHOOT_JUMP"         : "images/shoot-jump.png",
-	"SHOOT_LEFT-STEP"    : "images/shoot-left-step.png",
-	"SHOOT_RIGHT-STEP"   : "images/shoot-right-step.png",
-	"SHOOT"              : "images/shoot.png",
-	"SLIDE"              : "images/slide.png",
-	"STANDING"           : "images/standing.png",
-	"WEB_PROJECTILE"     : "images/web.png",
-	"BACKGROUND"         : "images/background.jpg",
-	"ROOF"               : "images/wall.jpg",
-	"BUILDING"           : "images/building.png",
-	"SPIDER_HEAD"        : "images/spider-head.png",
-	"HEART"              : "images/heart.png",
-	"VENOM"              : "images/venom.png",
-	"THUG"               : "images/thug.png",
-	"KNIFE"              : "images/knife.png",
+	"JUMP"               : "jump.png",
+	"RUNNING_CHANGE_STEP": "running-change-step.png",
+	"RUNNING_LEFT_STEP"  : "running-left-step.png",
+	"RUNNING_RIGHT_STEP" : "running-right-step.png",
+	"SHOOT_CHANGE_STEP"  : "shoot-change-step.png",
+	"SHOOT_JUMP"         : "shoot-jump.png",
+	"SHOOT_LEFT-STEP"    : "shoot-left-step.png",
+	"SHOOT_RIGHT-STEP"   : "shoot-right-step.png",
+	"SHOOT"              : "shoot.png",
+	"SLIDE"              : "slide.png",
+	"STANDING"           : "standing.png",
+	"WEB_PROJECTILE"     : "web.png",
+	"BACKGROUND"         : "background.jpg",
+	"ROOF"               : "wall.jpg",
+	"BUILDING"           : "building.png",
+	"SPIDER_HEAD"        : "spider-head.png",
+	"HEART"              : "heart.png",
+	"VENOM"              : "venom.png",
+	"THUG"               : "thug.png",
+	"KNIFE"              : "knife.png",
 };
 
 var AUDIO_RESOURCES = {
-	"AMAZING_SPIDER_MAN_2" : new Audio(RESOURCES_FOLDER_PATH + "audio/amazing-spider-man-2.mp3"),
-	"FRIENDLY_SPIDERMAN"   : new Audio(RESOURCES_FOLDER_PATH + "audio/60-theme-song.mp3"),
-	"MOVIE_THEME"          : new Audio(RESOURCES_FOLDER_PATH + "audio/old-theme.mp3"),
-	"ANIMATED_SERIES"      : new Audio(RESOURCES_FOLDER_PATH + "audio/animated-series-theme.mp3"),
-	"SHOOT"                : new Audio(RESOURCES_FOLDER_PATH + "audio/shooting-web.mp3"),
+	"AMAZING_SPIDER_MAN_2" : new Audio(RESOURCES_FOLDER_PATH + "amazing-spider-man-2.mp3"),
+	"FRIENDLY_SPIDERMAN"   : new Audio(RESOURCES_FOLDER_PATH + "60-theme-song.mp3"),
+	"MOVIE_THEME"          : new Audio(RESOURCES_FOLDER_PATH + "old-theme.mp3"),
+	"ANIMATED_SERIES"      : new Audio(RESOURCES_FOLDER_PATH + "animated-series-theme.mp3"),
+	"SHOOT"                : new Audio(RESOURCES_FOLDER_PATH + "shooting-web.mp3"),
 };
 
 var AUDIO_LOOP = [
